@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+.mainPage {
+    height: 500px;
+    width: 1000px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    background-color: #242a40;
+}
+
+.quizText{
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center; 
+    color: rgb(230, 230, 230);
+    font-size: 160px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.buttonBox {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.startButton {
+    height: 70px;
+    width: 230px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #2c4058;
+    color: rgb(230, 230, 230);
+    font-size: 45px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.startButton:hover{
+    background-color: #e78230 !important;
+}
+
+.brainIcon {
+    padding-left: 10px;
+}
+
+
+
+

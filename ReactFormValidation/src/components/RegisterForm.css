@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+/*validate*/
+
+.invalid {
+    border-color: red;
+}
+
+.errorText {
+    margin-top: 0px;
+    margin-left: 175px;
+    margin-bottom: -25px;
+    color: red;
+    font-size: 130%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Register {
+    height: 28px;
+    width: 100%;
+    border-bottom: 3px solid #d4d4d4;
+    text-align: center;
+    display: inline-block;
+    color: #3686bd;
+    font-size:large;
+}
+
+.RegisterText{
+     padding: 0 15px;
+     background-color: #f2f3f7;
+     font-size: 40px;
+     font-family: 'Barlow Condensed', sans-serif;
+}
+
+.CreateAccountText {
+     color: #9b9b9b;
+     font-family: 'Barlow Condensed', sans-serif;
+}
+
+.StarMarked {
+    display: flex;
+    justify-content: flex-start;
+    color: #9b9b9b;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Star {
+    color: red;
+}
+
+.RegisterForm {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.FirstNameBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LastNameBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NamesLabel {
+     padding-right: 10px;
+     color:#4e4e4e;
+     font-size: 160%;
+     font-family: 'Barlow Condensed', sans-serif;
+}
+ 
+.NamesInput {   
+     height: 40px;
+     width: 70%;
+     border: 1px solid #9b9b9b;
+     border-radius: 3px;
+     outline: none;
+     font-size: 150%;
+     font-family: 'Barlow Condensed', sans-serif;
+}
+
+::placeholder {
+     color: rgb(192, 192, 192);
+}
+
+.DateOfBirthBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.BirthdayLabel {
+    margin-right: 57px;
+    padding-right: 33px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Dob {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    font-size: 110%; 
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+select {
+    color: rgb(192, 192, 192);
+}
+
+.DobDayBox {
+    margin-right: 8px;
+}
+
+.DobDayMonth {
+    margin-right: 8px;
+}
+
+.GenderBox {
+    margin-top: 30px;
+    display: flex;  
+}
+
+.GenderText {
+    padding-right: 103px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.MaleRadioBox {
+    margin-right: 10px;
+}
+
+.MaleFemaleText {
+    color: rgb(100, 100, 100);
+    font-size: 140%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.GenderRadioButtons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PhoneNumberBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PhoneNumberLabel {
+    padding-right: 10px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.PhoneNumberInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.AddressBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddressLabel {
+    padding-right: 10px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.AddressInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    outline: none;
+    border-radius: 3px;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.TownBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TownLabel{
+    padding-right: 10px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.TownInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.PostcodeBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PostCodeLabel {
+    padding-right: 10px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.PostcodeInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.CountryBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CountryLabel {
+    padding-right: 92px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.CountryInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.EmailBox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.EmailLabel {
+    padding-right: 115px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.EmailInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Password1Box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PasswordLabel {
+    padding-right: 79px;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#4e4e4e;
+}
+
+.PasswordInput {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Password2Box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Password2Label{
+    padding-right: 5px;
+    color:#4e4e4e;
+    font-size: 160%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Password2Input {
+    height: 40px;
+    width: 70%;
+    border: 1px solid #9b9b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.SubmitButton {
+    height: 60px;
+    width: 130px;
+    margin: 40px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(61, 160, 61);
+    color: white;
+    font-size: 190%; 
+    font-family: 'Barlow Condensed', sans-serif; 
+}

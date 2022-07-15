@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.Filter {
+    text-align: left;
+    color:#fe8e22;
+    font-family: 'Jura', sans-serif;
+    font-size: 30px;
+}
+
+.MainButtons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ButtonSet {
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #41414d;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+.ButtonSet:hover {
+    color: #fe8e22;
+}

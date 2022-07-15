@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.theTable {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 20px;
+}
+
+tr {
+    height: 100px; 
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+th {
+    color: #fe8e22;
+    font-size: 180%;
+    font-family: 'Jura', sans-serif;
+}
+
+#name {
+    width:20%;
+}
+
+#description {
+    width: 20%;
+}
+
+#price {
+    width: 20%;
+}
+
+#quantity {
+    width: 20%;
+}

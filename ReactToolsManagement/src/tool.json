@@ -1,0 +1,30 @@
+[
+    {
+        "id": "4",
+        "Name": "Screwdriver Set",
+        "Description": "18PCS Tools Set, High Quality",
+        "Price": 19900,
+        "Quantity": "0"
+    },
+    {
+        "id": "1",
+        "Name": "Hammer",
+        "Description": "rubber hammer",
+        "Price": 4590,
+        "Quantity": "12"
+    },
+    {
+        "id": "2",
+        "Name": "Drilling Machine",
+        "Description": "BOSCH Professional Power Tool",
+        "Price": 23490,
+        "Quantity": "8"
+    },
+    {
+        "id": "3",
+        "Name": "Pliers",
+        "Description": "140 mm Steel Side Cutter",
+        "Price": 3290,
+        "Quantity": "14"
+    }
+]

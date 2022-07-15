@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300;500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+p {
+  color: #4eb4cc;
+  font-size: 40px;
+}
+
+.crossText {
+  text-decoration: line-through;
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+}
+
+.listitem {
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+}
+
+input {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-right: 30px;
+  resize: none;
+  outline: none;
+  background-color: white;
+  font-size: 20px;
+}
+
+.AddButton {
+  height: 40px;
+  width: 50px;
+  border: none;
+  border-radius: 5px; 
+  background-color: #4eb4cc;
+  font-weight: 900;
+}
+
+.CompletedButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #4eb4cc;
+}
+
+.DeleteButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #4eb4cc;
+}
+
+.deleteAll {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4eb4cc;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    height: 600px;
+    width: 800px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: column;
+    justify-content: center;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    background-color: #242a40;
+}
+  
+.scoreBox {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(230, 230, 230);
+    font-size: 40px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.finalText1 {
+    font-size: 50px;
+}
+
+.finalText2 {
+    font-size: 50px;
+}
+
+.backBox {
+    height: 200px;
+    width: 450px;
+    margin-top: 50px;  
+    display: flex;
+    flex-direction: column;
+}
+
+.backToMainMenuButton {
+    height: 55px;
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    color: black; 
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.backToMainMenuButton:hover {
+    background-color: #e78230 !important;
+}
+
+.MainMenuHouse {
+    padding-left: 15px;
+}
+  
+.questionCountAndCounterBox {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+  
+.questionCountAndCounterBox span {
+    font-size: 28px;
+}
+
+.questionCountBox {
+    color: rgb(230, 230, 230);
+    font-size: 21px;
+}
+
+.questionCounterBox {
+    color: rgb(230, 230, 230);
+    font-size: 23px;
+}
+
+.Images {
+    height: 300px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.questionTextBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(230, 230, 230); 
+    font-size: 28px;
+}
+  
+.onlyQuestionText {
+    margin-bottom: 12px;
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+  
+.answerBox {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.allButtons {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    color: black; 
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.allButtons:hover {
+    background-color: #e78230 !important;
+}
+ 
+  
